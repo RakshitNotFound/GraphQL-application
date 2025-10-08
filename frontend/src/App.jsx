@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { request, gql } from 'graphql-request';
 
-const endpoint = 'http://localhost:4000/graphql';
+const endpoint = 'https://graphql-application-gthu.onrender.com/graphql';
 
 const ADD_USER = gql`
   mutation($name: String!, $email: String!) {
